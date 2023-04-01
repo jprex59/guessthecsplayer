@@ -1,0 +1,2 @@
+# guessthecsplayer
+mastermind cs player
