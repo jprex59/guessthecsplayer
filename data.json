@@ -1,0 +1,25 @@
+{
+	"joueurs": [
+		{
+			"nom": "s1mple",
+			"nationalité": "ukrainienne",
+			"arme": "AWP",
+			"team": "Natus Vincere",
+			"nb_major_participes": 3
+		},
+		{
+			"nom": "ZywOo",
+			"nationalité": "française",
+			"arme": "AK-47",
+			"team": "Vitality",
+			"nb_major_participes": 1
+		},
+		{
+			"nom": "device",
+			"nationalité": "danoise",
+			"arme": "AK-47",
+			"team": "Ninjas in Pyjamas",
+			"nb_major_participes": 4
+		}
+	]
+}

@@ -1,0 +1,186 @@
+{
+	"joueurs": [
+		{
+			"nom": "s1mple",
+			"nationalité": "ukrainienne",
+			"arme": "AWP",
+			"team": "Natus Vincere",
+			"nb_major_participes": 3
+		},
+		{
+			"nom": "ZywOo",
+			"nationalité": "française",
+			"arme": "AK-47",
+			"team": "Vitality",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "device",
+			"nationalité": "danoise",
+			"arme": "AWP",
+			"team": "Ninjas in Pyjamas",
+			"nb_major_participes": 5
+		},
+		{
+			"nom": "NiKo",
+			"nationalité": "bosniaque",
+			"arme": "M4A4",
+			"team": "G2 Esports",
+			"nb_major_participes": 3
+		},
+		{
+			"nom": "electronic",
+			"nationalité": "ukrainienne",
+			"arme": "AK-47",
+			"team": "Natus Vincere",
+			"nb_major_participes": 4
+		},
+		{
+			"nom": "syrsoN",
+			"nationalité": "allemande",
+			"arme": "AWP",
+			"team": "BIG",
+			"nb_major_participes": 1
+		},
+		{
+			"nom": "ropz",
+			"nationalité": "estonienne",
+			"arme": "AK-47",
+			"team": "mousesports",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "stavn",
+			"nationalité": "danoise",
+			"arme": "AK-47",
+			"team": "Heroic",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "sh1ro",
+			"nationalité": "russe",
+			"arme": "AWP",
+			"team": "Gambit",
+			"nb_major_participes": 1
+		},
+		{
+			"nom": "cadiaN",
+			"nationalité": "danoise",
+			"arme": "AWP",
+			"team": "Dignitas",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "Aleksib",
+			"nationalité": "finlandaise",
+			"arme": "AK-47",
+			"team": "OG",
+			"nb_major_participes": 3
+		},
+		{
+			"nom": "huNter-",
+			"nationalité": "bosniaque",
+			"arme": "AK-47",
+			"team": "G2 Esports",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "KSCERATO",
+			"nationalité": "brésilienne",
+			"arme": "AK-47",
+			"team": "FURIA",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "Twistzz",
+			"nationalité": "canadienne",
+			"arme": "AK-47",
+			"team": "FaZe Clan",
+			"nb_major_participes": 4
+		},
+		{
+			"nom": "TabseN",
+			"nationalité": "allemande",
+			"arme": "AK-47",
+			"team": "BIG",
+			"nb_major_participes": 2
+		},
+		{
+			"nom": "JW",
+			"nationalité": "suédoise",
+			"arme": "AWP",
+			"team": "fnatic",
+			"nb_major_participes": 9
+		},
+		{
+			"nom": "flamie",
+			"nationalité": "ukrainienne",
+			"arme": "AK-47",
+			"team": "Natus Vincere",
+			"nb_major_participes": 4
+		},
+		{
+			"nom": "Sico",
+			"nationalité": "australienne",
+			"arme": "AWP",
+			"team": "ORDER",
+			"nb_major_participes": 0
+		},
+		{
+			"nom": "KennyS",
+			"nationalité": "française",
+			"arme": "AWP",
+			"team": "G2 Esports",
+			"nb_major_participes": 11
+		},
+		{
+			"nom": "Karrigan",
+			"nationalité": "danoise",
+			"arme": "AK-47",
+			"team": "mousesports",
+			"nb_major_participes": 11
+		},
+		{
+			"nom": "EliGE",
+			"nationalité": "américaine",
+			"arme": "AK-47",
+			"team": "Liquid",
+			"nb_major_participes": 5
+		},
+		{
+			"nom": "jks",
+			"nationalité": "australienne",
+			"arme": "AK-47",
+			"team": "100 Thieves",
+			"nb_major_participes": 1
+		},
+		{
+			"nom": "Brehze",
+			"nationalité": "américaine",
+			"arme": "AK-47",
+			"team": "Evil Geniuses",
+			"nb_major_participes": 4
+		},
+		{
+			"nom": "Twist",
+			"nationalité": "suédoise",
+			"arme": "AK-47",
+			"team": "NiP",
+			"nb_major_participes": 7
+		},
+		{
+			"nom": "CeRq",
+			"nationalité": "bulgare",
+			"arme": "AWP",
+			"team": "Evil Geniuses",
+			"nb_major_participes": 5
+		},
+		{
+			"nom": "k0nfig",
+			"nationalité": "danoise",
+			"arme": "AK-47",
+			"team": "Complexity",
+			"nb_major_participes": 5
+		}
+	]
+}

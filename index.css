@@ -1,0 +1,47 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 25px;
+}
+
+table thead tr th {
+	text-align: center !important;
+}
+
+table tbody tr td {
+	text-align: center !important;
+}
+
+#search-box {
+	width: 400px;
+	margin-bottom: 25px;
+}
+
+.field {
+	position: relative;
+}
+
+#results-container {
+	position: absolute;
+	top: 45px;
+	background-color: lightslategray;
+	width: 400px;
+	max-height: 150px;
+	overflow: auto;
+	padding: 15px;
+	color: #fff;
+	border-radius: 15px;
+}
+
+#results-container ul li:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+.highlight {
+	background-color: green;
+}
