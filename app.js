@@ -4,12 +4,12 @@ fetch("bdd.json")
 	.then((data) => {
 		const joueurs = data.joueurs;
 		const tableBody = document.querySelector("#result-table tbody");
-
 		function getRandomJoueur(joueurs) {
 			const randomIndex = Math.floor(Math.random() * joueurs.length);
 			return joueurs[randomIndex];
 		}
 
+		// Obtenir un joueur aléatoire et afficher son nom dans la console
 		const randomJoueur = getRandomJoueur(joueurs);
 		console.log("Joueur aléatoire : ", randomJoueur);
 
@@ -40,7 +40,6 @@ fetch("bdd.json")
 			resultsContainer.innerHTML = "";
 			resultsContainer.appendChild(resultList);
 		});
-
 		const input = document.getElementById("search-box");
 		const resultsContainer = document.getElementById("results-container");
 
@@ -79,7 +78,52 @@ fetch("bdd.json")
 				nbMajorCell.textContent = joueur.nb_major_participes;
 
 				searchBox.value = "";
-				resultsContainer.innerHTML = "";
+				document.getElementById("results-container").innerHTML = "";
+
+				// Trouver les éléments en commun avec le joueur choisi au hasard
+				const elementsEnCommun = [];
+				Object.entries(joueur).forEach(([cle, valeur]) => {
+					if (valeur === randomJoueur[cle]) {
+						elementsEnCommun.push(cle);
+					}
+				});
+
+				// Afficher les éléments en commun dans la console
+				console.log("Éléments en commun avec le joueur aléatoire : ", elementsEnCommun);
+
+				// Ajouter une classe aux cellules des éléments en commun pour les surligner en vert
+				if (elementsEnCommun.length > 0) {
+					elementsEnCommun.forEach((element) => {
+						switch (element) {
+							case "nom":
+								nomCell.classList.add("common-element");
+								break;
+							case "nationalité":
+								nationaliteCell.classList.add("common-element");
+								break;
+							case "arme":
+								armeCell.classList.add("common-element");
+								break;
+							case "team":
+								teamCell.classList.add("common-element");
+								break;
+							case "nb_major_participes":
+								nbMajorCell.classList.add("common-element");
+								break;
+						}
+					});
+				}
+
+				// Afficher les éléments en commun dans la console
+				if (elementsEnCommun.length > 0) {
+					console.log("Éléments en commun avec le joueur aléatoire :");
+					elementsEnCommun.forEach((element) => console.log("- " + element));
+				} else {
+					console.log("Aucun élément en commun avec le joueur aléatoire.");
+				}
+			} else {
+				alert("Aucun joueur ne correspond à la recherche.");
 			}
 		});
-	});
+	})
+	.catch((error) => console.error(error)); // Gérer les erreurs de chargement des données

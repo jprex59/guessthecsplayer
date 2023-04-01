@@ -42,6 +42,6 @@ table tbody tr td {
 	cursor: pointer;
 }
 
-.highlight {
+.common-element {
 	background-color: green;
 }
